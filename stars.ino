@@ -26,7 +26,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   if (arduboy.nextFrame()) {
-    if (StepGame());
+    if (StepGame())
       arduboy.display();
   }
 }

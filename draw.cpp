@@ -3,9 +3,6 @@
 #include "platform.h"
 #include "utils.h"
 
-void DrawDimmedStar(uint16_t star);
-void DrawFullStar(uint16_t star);
-
 void DrawStars(uint16_t stars[max_stars]) {
   uint8_t i, x, y;
   uint16_t star;
